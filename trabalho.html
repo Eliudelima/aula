@@ -1,17 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
     <head>
+      <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="trabalho.css">
         <script  type="text/javascript" src="trabalho.js"></script>    
     </head>
     <body>
-            <button class="test" onclick="teste()">PDF</button>
-            <button class="test" onclick="iniciarTabela()">Livros Disponíveis</button>
-            <button class="test" onclick="iniciarTabela()">Imagens</button>
-            <button id="btn1">OK2</button>
+   <h1 class="letra">Pesquisa de Preços e Satisfação</h1>
+   
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Lugares Pesquisados')">Lugares Pesquisados</button>
+  <button class="tablinks" onclick="openCity(event, 'Imagens dos Produtos')">Imagens dos Produtos</button>
+  <button class="tablinks" onclick="openCity(event, 'Pesquisa de Preco')">Pesquisa de Preco</button>
+  <button class="tablinks" onclick="openCity(event, 'Satisfacao do Cliente')">Satisfacao do Cliente</button>
+</div>
+
+<div id="Lugares Pesquisados" class="tabcontent">
+  <div class="centro"><h3>Lugares Pesquisados</h3>
+  <spam><p><a href="">Lanchonete Da Cidade</a></p>
+  <p>Av. Dr. Epitácio Pessoa, 396 - 1 e 3</p> 
+  <p>- Aparecida, Santos - SP, 11030-600</p>
+  <p>Horário: Aberto ⋅ Fecha às 00:00</p>
+  <img  alt="cidade"src="cidade.png"> </spam>
+  
+  <spam><p><a href="">Lanches Requinte</a></p>
+  <p>Av. Dr. Epitácio Pessoa, 399</p> 
+  <p>- Aparecida, Santos - SP, 11030-600</p>
+  <p>Horário: Aberto ⋅ Fecha às 23:00</p>
+  <img  alt="requinte"src="requinte.png"></spam>
+</div></div>
+
+<div id="Imagens dos Produtos" class="tabcontent">
+<div class="centro">  
+  <img  alt="produtos"src="Produtos.png">
+</div></div>
+
+<div id="Pesquisa de Preco" class="tabcontent">
+  <div class="centro">
+    <p>Uma pesquisa comparativa foi realizada com as lanchonetes Lanches Requinte e Lanchonete da Cidade.</p>
+    <p>Os preços de alguns sanduíches foram tabelados, e foi tirada a média dos preços.</p>
+    <h3>Clique no botão abaixo e veja a pesquisa</h3>
+  <button class="test" onclick="iniciarTabela()">Pesquisa de Preco</button>
             <div class="table"></div>
-            <button onclick="iniciarTabela()">
-                Montar
-                </button>
+            <p>Conclui-se desta forma que a Lanches Requinte possui os maiores preços, porém, </p>
+            <p>como pode-se ver na satisfação do cliente, isso não significa a maior aprovação.</p>
+ </div>
+</div>
+<div id="Satisfacao do Cliente" class="tabcontent">
+ <div class="centro"> <h3>Satisfacao do Cliente</h3>
+  <p>Verificou-se que no produto Hamburguer foi encontrado a maior satisfação de consumo por parte dos clientes pesquisados na Lanchonete Requinte.</p>
+   <p>O tradicional Misto Quente é consumido acompanhado do bom e velho cafézinho, e é consumido igualmente nas duas lanchonetes no período da manhã.</p> 
+  <p>O X-Salada é o campeão de vendas nos fins de semana. Famílias se reúnem para aproveitar desse delicioso lanche que mais parece uma refeição.</p>
+    <p>Veja o gráfico com a aprovação dos cliente em ambas as lanchonetes. </p>
+    <p>Já o Hot Dog prefirido por todos, com maior número de vendas é o da Lanchonete Da Cidade.</p>
+    <img  alt="grafico"src="graf2.png">
+</div></div>
+
     </body>    
 </html>

@@ -1,12 +1,73 @@
-body{
-    background-color: #ADD8E6;
-    }
+      .letra{
+       display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+  color: #800000;
+     } 
+     
     .test{
-        border-bottom-left-radius: 2px;
-        width: 200px;
+    width: 200px;
     height: 50px; 
     margin-top: 200px;
-    
-        
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
     }
-    
+      .table{
+          text-align: center;
+          width: 100%;
+          height: 100%; 
+      }  
+   
+  body {font-family: Arial;
+     background-image: url("paper.png");
+  }
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 0px solid #ccc;
+ }
+
+.tab button {
+  background-color: #ffd9b3;
+  float: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 1.15%;
+  padding: 2% 6%;
+  transition: 0.3s;
+  font-size: 17px;
+  }
+
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+
+.tab button .active {
+  background-color: #ccc;
+}
+
+
+.tabcontent {
+  display: none;
+  padding: 10px 0px;
+ margin-right: 1.15%;
+ margin-left: 1.15%;
+  float:none;
+  background-color: #ffffe6;
+  }
+
+.centro{
+  padding: 0% 15%;
+  }
+  spam{
+    display:inline-block;
+    padding:0% 5%;
+  }
